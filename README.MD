@@ -1,5 +1,5 @@
-Just a quick not on how to access Cisco UCS servers running old version of firmware, where HTTP KVM is not an option and the only way to access the KVM is via a GUI login using Adobe Flash
-This is an issue since most browsers (like Chrome) have now disabled Adobe Flash. There are way around it, but if all you need is to quicky access KVM you can do the following.
+Just a quick note on how to access Cisco UCS server's KVM running old version of firmware.
+In older UCS servers HTML5.0 KVM is not an option and the only way to access the KVM is via a GUI login using Adobe Flash, but this is an issue since most browsers (like Chrome) have now disabled Adobe Flash. There are ways around it, but if all you need is to quicky access KVM you can do the following.
 
 1. Make sure you have JAVA Runtime installed.
 2. Download the generic JNLP file from the repository.
