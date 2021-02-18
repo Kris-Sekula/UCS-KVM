@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp codebase="https://2.2.2.2:443/*" spec="1.0+">
+<information>
+  <title>Cisco Virtual KVM Console</title>
+  <vendor>Cisco Systems Inc.</vendor>
+   <icon href="https://2.2.2.2:443/images/logo.gif" kind="splash"/>
+   <shortcut online="true"/>
+ </information>
+ <application-desc main-class="com.avocent.nuova.kvm.Main">
+   <argument>title=2.2.2.2 - server_name CIMC Console</argument>
+   <argument>ip=2.2.2.2</argument>
+   <argument>vmprivilege=true</argument>
+   <argument>helpurl=https://2.2.2.2:443/help/content/kvm_vm_help.html</argument>
+   <argument>user=admin</argument>
+   <argument>passwd=cisco123</argument>
+   <argument>kmport=2068</argument>
+   <argument>vport=2068</argument>
+   <argument>apcp=1</argument>
+   <argument>power=1</argument>
+   <argument>nextboot=1</argument>
+   <argument>vm=1</argument>
+   <argument>chat=1</argument>
+   <argument>statusbar=ip,un,fr,bw,kp,enc</argument>
+   <argument>tempunpw=1</argument>
+   <argument>version=2</argument>
+   <argument>aimpresent=1</argument>
+   <argument>export=1</argument>
+   <argument>custom=2</argument>
+   <argument>language=en</argument>
+   <argument>-Xmx512M</argument>
+   <argument>-Xms256M</argument>
+   <argument>dvr=2</argument>
+ </application-desc>
+ <security>
+   <all-permissions/>
+ </security>
+ <update check="always" policy="always" />
+ <resources>
+   <j2se version="1.6.0_14+" href="http://java.sun.com/products/autodl/j2se" initial-heap-size="256M" max-heap-size="512M"/>
+   <jar href="https://2.2.2.2:443/software/avctNuova.jar" download="eager" main="true" />
+   <property name="jnlp.packEnabled" value="true"/>
+ </resources>
+ <resources os="Windows" arch="x86">
+   <nativelib href="https://2.2.2.2:443/software/avctKVMIOWin32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	<nativelib href="https://2.2.2.2:443/software/avctVMWin32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+ </resources>
+ <resources os="Windows" arch="amd64">
+   <nativelib href="https://2.2.2.2:443/software/avctKVMIOWin64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	<nativelib href="https://2.2.2.2:443/software/avctVMWin64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+ </resources>
+ <resources os="Windows" arch="x86_64">
+   <nativelib href="https://2.2.2.2:443/software/avctKVMIOWin64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	<nativelib href="https://2.2.2.2:443/software/avctVMWin64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+ </resources>
+  <resources os="Linux" arch="x86">
+    <nativelib href="https://2.2.2.2:443/software/avctKVMIOLinux32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	 <nativelib href="https://2.2.2.2:443/software/avctVMLinux32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+  </resources>
+  <resources os="Linux" arch="i386">
+    <nativelib href="https://2.2.2.2:443/software/avctKVMIOLinux32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	 <nativelib href="https://2.2.2.2:443/software/avctVMLinux32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+  </resources>
+  <resources os="Linux" arch="i586">
+    <nativelib href="https://2.2.2.2:443/software/avctKVMIOLinux32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	 <nativelib href="https://2.2.2.2:443/software/avctVMLinux32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+  </resources>
+  <resources os="Linux" arch="i686">
+    <nativelib href="https://2.2.2.2:443/software/avctKVMIOLinux32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	 <nativelib href="https://2.2.2.2:443/software/avctVMLinux32.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+  </resources>
+  <resources os="Linux" arch="amd64">
+    <nativelib href="https://2.2.2.2:443/software/avctKVMIOLinux64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	 <nativelib href="https://2.2.2.2:443/software/avctVMLinux64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+  </resources>
+  <resources os="Linux" arch="x86_64">
+    <nativelib href="https://2.2.2.2:443/software/avctKVMIOLinux64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	 <nativelib href="https://2.2.2.2:443/software/avctVMLinux64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+  </resources>
+  <resources os="Mac\ OS\ X" arch="x86_64">
+    <nativelib href="https://2.2.2.2:443/software/avctKVMIOMac64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+	 <nativelib href="https://2.2.2.2:443/software/avctVMMac64.jar" download="eager"/>
+   <property name="jnlp.packEnabled" value="true"/>
+  </resources>
+  </jnlp>
