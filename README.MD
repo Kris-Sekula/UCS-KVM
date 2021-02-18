@@ -11,6 +11,8 @@ In older UCS servers HTML5.0 KVM is not an option and the only way to access the
 8. Run the file (in Windows just a double click will do).
 9. Enjoy the KVM connection :)
 
+Here is a video of how to do it.
+https://youtu.be/BF9MgFV6JAQ
 
 If you found this helpful and you like the work I do, why not buy me a coffe, thanks ! :)
 
